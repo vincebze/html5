@@ -4,8 +4,89 @@
     <link type="text/css" href="css/hitchlog.css" media="screen" rel="stylesheet" />
   </head>
   <body>
-    <h1>Hitchlog</h1>
-    <p>Log your hitchhiking Experiences</p>
+    <div id="header_area" class="full_width">
+      <div class="page">
+          <div id="header">
+              <h1 id="logo">
+                <a href="http://www.alechemy.com.au">Site about Beer</a>
+              </h1>
+            </div>
+          </div>
+        </div>
+      <nav>
+        <a href="http://en.wikipedia.org/wiki/Beer_pong/">Brews</a> |
+        <a href="http://www.alechemy.com.au">Courses</a> |
+        <a href="/css/">Fun</a> |
+        <a href="/css3/">Drunk</a> |
+        <a href="/js/">have a blast</a>
+      </nav>
+    <h1>Next Stop Hitchlog</h1>
+    <p>Meet the creators</p>
+      <article>
+        <header>
+          <h3>About Vince</h3>
+        </header>  
+          <p>Vince: Graduated with a bachelor of science in Business Finance and has owned a successful   painting and construction business in the U.S.  He’s been making and teaching others how to make boutique beer for the last four years. This and several years as a cook has fostered a passion for flavours, scents and developing businesses.</p>
+      </article> 
+      <article>
+        <header>
+          <h3>About Florian</h3>
+        </header>
+          <p>This Ruby master often finds himself debugging algorithms and eating out of dumpsters </p>
+      </article>
+          <div class="comments_template">
+            <div id="respond">
+                <h3 id="reply-title">
+                    Leave a Reply
+                      <small>
+                        <a id="cancel-comment-reply-link" style="display:none;" href="/?page_id=77#respond"   
+                        rel="nofollow">Cancel reply</a>
+                      </small>
+                </h3>
+          <div class="comm_break"></div>
+          <div style="clear:both"></div>
+          <form id="commentform" method="post" action="http://alechemy.com.au/wp-comments-post.php">
+          <p class="comment-notes">
+          Your email address will not be published. Required fields are marked
+          <span class="required">*</span>
+          </p>
+          <p class="comment-form-author">
+          <label for="author">Name</label>
+          <span class="required">*</span>
+          <input id="author" type="text" aria-required="true" size="30" value="" name="author">
+          </p>
+          <p class="comment-form-email">
+          <label for="email">Email</label>
+          <span class="required">*</span>
+          <input id="email" type="text" aria-required="true" size="30" value="" name="email">
+          </p>
+          <p class="comment-form-url">
+          <label for="url">Website</label>
+          <input id="url" type="text" size="30" value="" name="url">
+          </p>
+          <p class="comment-form-comment">
+          <label for="comment">Comment</label>
+          <textarea id="comment" aria-required="true" rows="8" cols="45" name="comment"></textarea>
+          </p>
+          <p class="form-allowed-tags">
+          You may use these
+          <abbr title="HyperText Markup Language">HTML</abbr>
+          tags and attributes:
+          <code><a href="" title=""> <abbr title=""> <acronym title=""> <b> <blockquote cite=""> <cite> <code> <del datetime=""> <em> <i> <q cite=""> <strike> <strong> </code>
+          </p>
+          <p class="form-submit">
+          <input id="submit" type="submit" value="Post Comment" name="submit">
+          <input id="comment_post_ID" type="hidden" value="77" name="comment_post_ID">
+          <input id="comment_parent" type="hidden" value="0" name="comment_parent">
+          </p>
+          </form>
+          </div>
+          </div>
+          </div>
+          </div>
+          <div id="sidebar">
+          </div>
+          </div>
   </body>
 </html>
 

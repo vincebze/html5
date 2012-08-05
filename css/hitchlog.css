@@ -1,0 +1,48 @@
+#logo a {
+    display: block;
+    height: 4.25em;
+    outline: medium none;
+    text-indent: -9999px;
+    width: 25.889em;
+}
+#logo, #logo a {
+    color: #111111;
+}
+a, h2 a:hover, #logo a:hover {
+    color: #EFA31F;
+}
+a, a:hover {
+    text-decoration: none;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+#header #logo {
+    font-size: 3.6em;
+    line-height: 1.167em;
+}
+#logo, #logo a {
+    color: #111111;
+}
+#logo {
+    font-weight: bold;
+}
+h1, h2, h2 a {
+    color: #222222;
+}
+h1, h2, h3, h6 {
+    font-weight: normal;
+}
+#header {
+    border-style: double;
+}
+body {
+    color: #4F4F4F;
+}
+body {
+    font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+}
+body {
+    font-size: 10px;
+}
